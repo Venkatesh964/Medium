@@ -10,7 +10,7 @@ interface BlogCardProps{
 
 
 export const BlogCard=({authorName,content,title,publishedDate,id}:BlogCardProps)=>{
-    return <Link to={"/blog/${id}"}>
+    return <Link to={`/blog/${id}`}>
     <div className="border-b p-4 w-screen max-w-screen-md cursor-pointer">
         <div className="flex ">
             <div className="">

@@ -3,6 +3,7 @@ import { AppBar } from "./AppBar"
 import { Avatar } from "./BlogCard";
 
 export const FullBlog=({blog}:{blog:Blog})=>{
+    console.log("from full blog")
     console.log(blog);
     return <div>
         <AppBar></AppBar>
